@@ -2,8 +2,8 @@
 
 # Alt+F4 is very cumbersome
 gsettings set org.gnome.desktop.wm.keybindings close "['<Super>q']"
-gsettings set org.gnome.desktop.wm.keybindings switch-windows "['']"
-gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['']"
+gsettings set org.gnome.desktop.wm.keybindings switch-windows "@as []"
+gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "@as []"
 gsettings set org.gnome.desktop.wm.keybindings cycle-windows "['<Super>k']"
 gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "['<Super>j']"
 

@@ -2,10 +2,10 @@
 
 # Alt+F4 is very cumbersome
 gsettings set org.gnome.desktop.wm.keybindings close "['<Super>q']"
-gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Super>k']"
-gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Super>j']"
-gsettings set org.gnome.desktop.wm.keybindings cycle-windows "['<Super>l']"
-gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "['<Super>;']"
+gsettings set org.gnome.desktop.wm.keybindings switch-windows "['']"
+gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['']"
+gsettings set org.gnome.desktop.wm.keybindings cycle-windows "['<Super>k']"
+gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "['<Super>j']"
 
 # Make it easy to maximize like you can fill left/right
 gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"

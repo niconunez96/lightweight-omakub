@@ -6,6 +6,8 @@ gsettings set org.gnome.desktop.wm.keybindings switch-windows "@as []"
 gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "@as []"
 gsettings set org.gnome.desktop.wm.keybindings cycle-windows "['<Super>k']"
 gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "['<Super>j']"
+dconf write /org/gnome/desktop/wm/keybindings/cycle-windows "['<Super>k']"
+dconf write /org/gnome/desktop/wm/keybindings/cycle-windows-backward "['<Super>j']"
 
 # Make it easy to maximize like you can fill left/right
 gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"

@@ -6,8 +6,6 @@
 /usr/bin/gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "@as []"
 /usr/bin/gsettings set org.gnome.desktop.wm.keybindings cycle-windows "['<Super>k']"
 /usr/bin/gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "['<Super>j']"
-/usr/bin/dconf write /org/gnome/desktop/wm/keybindings/cycle-windows "['<Super>k']"
-/usr/bin/dconf write /org/gnome/desktop/wm/keybindings/cycle-windows-backward "['<Super>j']"
 
 # Make it easy to maximize like you can fill left/right
 /usr/bin/gsettings set org.gnome.desktop.wm.keybindings maximize "['<Super>Up']"
@@ -39,17 +37,6 @@
 /usr/bin/gsettings set org.gnome.shell.keybindings switch-to-application-8 "@as []"
 /usr/bin/gsettings set org.gnome.shell.keybindings switch-to-application-9 "@as []"
 
-/usr/bin/dconf write /org/gnome/shell/keybindings/switch-to-application-1 "@as []"
-/usr/bin/dconf write /org/gnome/shell/keybindings/switch-to-application-2 "@as []"
-/usr/bin/dconf write /org/gnome/shell/keybindings/switch-to-application-3 "@as []"
-/usr/bin/dconf write /org/gnome/shell/keybindings/switch-to-application-4 "@as []"
-/usr/bin/dconf write /org/gnome/shell/keybindings/switch-to-application-5 "@as []"
-/usr/bin/dconf write /org/gnome/shell/keybindings/switch-to-application-6 "@as []"
-/usr/bin/dconf write /org/gnome/shell/keybindings/switch-to-application-7 "@as []"
-/usr/bin/dconf write /org/gnome/shell/keybindings/switch-to-application-8 "@as []"
-/usr/bin/dconf write /org/gnome/shell/keybindings/switch-to-application-9 "@as []"
-
-#
 # Use super for workspaces
 /usr/bin/gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-1 "['<Super>1']"
 /usr/bin/gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-2 "['<Super>2']"

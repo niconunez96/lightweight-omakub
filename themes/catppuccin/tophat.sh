@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gsettings set org.gnome.shell.extensions.tophat meter-fg-color "#e920a3"
+/usr/bin/gsettings set org.gnome.shell.extensions.tophat meter-fg-color "#e920a3"

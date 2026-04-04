@@ -1,8 +1,10 @@
 return {
-	{
-		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "tokyonight",
-		},
-	},
+	"folke/tokyonight.nvim",
+	lazy = false,
+	priority = 1000,
+	opts = {},
+	config = function()
+		vim.o.background = "dark"
+		vim.cmd.colorscheme("tokyonight")
+	end,
 }

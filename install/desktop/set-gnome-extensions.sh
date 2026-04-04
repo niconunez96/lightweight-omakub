@@ -31,47 +31,47 @@ sudo cp ~/.local/share/gnome-shell/extensions/AlphabeticalAppGrid\@stuarthayhurs
 sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
 
 # Configure Tactile
-gsettings set org.gnome.shell.extensions.tactile col-0 1
-gsettings set org.gnome.shell.extensions.tactile col-1 2
-gsettings set org.gnome.shell.extensions.tactile col-2 1
-gsettings set org.gnome.shell.extensions.tactile col-3 0
-gsettings set org.gnome.shell.extensions.tactile row-0 1
-gsettings set org.gnome.shell.extensions.tactile row-1 1
-gsettings set org.gnome.shell.extensions.tactile gap-size 32
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile col-0 1
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile col-1 2
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile col-2 1
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile col-3 0
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile row-0 1
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile row-1 1
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile gap-size 32
 
 # Configure Just Perfection
-gsettings set org.gnome.shell.extensions.just-perfection animation 2
-gsettings set org.gnome.shell.extensions.just-perfection dash-app-running true
-gsettings set org.gnome.shell.extensions.just-perfection workspace true
-gsettings set org.gnome.shell.extensions.just-perfection workspace-popup false
+/usr/bin/gsettings set org.gnome.shell.extensions.just-perfection animation 2
+/usr/bin/gsettings set org.gnome.shell.extensions.just-perfection dash-app-running true
+/usr/bin/gsettings set org.gnome.shell.extensions.just-perfection workspace true
+/usr/bin/gsettings set org.gnome.shell.extensions.just-perfection workspace-popup false
 
 # Configure Blur My Shell
-gsettings set org.gnome.shell.extensions.blur-my-shell.appfolder blur false
-gsettings set org.gnome.shell.extensions.blur-my-shell.lockscreen blur false
-gsettings set org.gnome.shell.extensions.blur-my-shell.screenshot blur false
-gsettings set org.gnome.shell.extensions.blur-my-shell.window-list blur false
-gsettings set org.gnome.shell.extensions.blur-my-shell.panel blur false
-gsettings set org.gnome.shell.extensions.blur-my-shell.overview blur true
-gsettings set org.gnome.shell.extensions.blur-my-shell.overview pipeline 'pipeline_default'
-gsettings set org.gnome.shell.extensions.blur-my-shell.dash-to-dock blur true
-gsettings set org.gnome.shell.extensions.blur-my-shell.dash-to-dock brightness 0.6
-gsettings set org.gnome.shell.extensions.blur-my-shell.dash-to-dock sigma 30
-gsettings set org.gnome.shell.extensions.blur-my-shell.dash-to-dock static-blur true
-gsettings set org.gnome.shell.extensions.blur-my-shell.dash-to-dock style-dash-to-dock 0
+/usr/bin/gsettings set org.gnome.shell.extensions.blur-my-shell.appfolder blur false
+/usr/bin/gsettings set org.gnome.shell.extensions.blur-my-shell.lockscreen blur false
+/usr/bin/gsettings set org.gnome.shell.extensions.blur-my-shell.screenshot blur false
+/usr/bin/gsettings set org.gnome.shell.extensions.blur-my-shell.window-list blur false
+/usr/bin/gsettings set org.gnome.shell.extensions.blur-my-shell.panel blur false
+/usr/bin/gsettings set org.gnome.shell.extensions.blur-my-shell.overview blur true
+/usr/bin/gsettings set org.gnome.shell.extensions.blur-my-shell.overview pipeline 'pipeline_default'
+/usr/bin/gsettings set org.gnome.shell.extensions.blur-my-shell.dash-to-dock blur true
+/usr/bin/gsettings set org.gnome.shell.extensions.blur-my-shell.dash-to-dock brightness 0.6
+/usr/bin/gsettings set org.gnome.shell.extensions.blur-my-shell.dash-to-dock sigma 30
+/usr/bin/gsettings set org.gnome.shell.extensions.blur-my-shell.dash-to-dock static-blur true
+/usr/bin/gsettings set org.gnome.shell.extensions.blur-my-shell.dash-to-dock style-dash-to-dock 0
 
 # Configure Space Bar
-gsettings set org.gnome.shell.extensions.space-bar.behavior smart-workspace-names false
-gsettings set org.gnome.shell.extensions.space-bar.shortcuts enable-activate-workspace-shortcuts false
-gsettings set org.gnome.shell.extensions.space-bar.shortcuts enable-move-to-workspace-shortcuts true
-gsettings set org.gnome.shell.extensions.space-bar.shortcuts open-menu "@as []"
+/usr/bin/gsettings set org.gnome.shell.extensions.space-bar.behavior smart-workspace-names false
+/usr/bin/gsettings set org.gnome.shell.extensions.space-bar.shortcuts enable-activate-workspace-shortcuts false
+/usr/bin/gsettings set org.gnome.shell.extensions.space-bar.shortcuts enable-move-to-workspace-shortcuts true
+/usr/bin/gsettings set org.gnome.shell.extensions.space-bar.shortcuts open-menu "@as []"
 
 # Configure TopHat
-gsettings set org.gnome.shell.extensions.tophat show-icons false
-gsettings set org.gnome.shell.extensions.tophat show-cpu false
-gsettings set org.gnome.shell.extensions.tophat show-disk false
-gsettings set org.gnome.shell.extensions.tophat show-mem false
-gsettings set org.gnome.shell.extensions.tophat show-fs false
-gsettings set org.gnome.shell.extensions.tophat network-usage-unit bits
+/usr/bin/gsettings set org.gnome.shell.extensions.tophat show-icons false
+/usr/bin/gsettings set org.gnome.shell.extensions.tophat show-cpu false
+/usr/bin/gsettings set org.gnome.shell.extensions.tophat show-disk false
+/usr/bin/gsettings set org.gnome.shell.extensions.tophat show-mem false
+/usr/bin/gsettings set org.gnome.shell.extensions.tophat show-fs false
+/usr/bin/gsettings set org.gnome.shell.extensions.tophat network-usage-unit bits
 
 # Configure AlphabeticalAppGrid
-gsettings set org.gnome.shell.extensions.alphabetical-app-grid folder-order-position 'end'
+/usr/bin/gsettings set org.gnome.shell.extensions.alphabetical-app-grid folder-order-position 'end'

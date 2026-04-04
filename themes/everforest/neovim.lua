@@ -1,10 +1,9 @@
 return {
-	{ "neanias/everforest-nvim" },
 	{
-		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "everforest",
-			background = "soft",
-		},
+		"neanias/everforest-nvim",
+		config = function()
+			vim.o.background = "dark"
+			vim.cmd.colorscheme("everforest")
+		end,
 	},
 }

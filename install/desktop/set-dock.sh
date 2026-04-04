@@ -48,4 +48,4 @@ favorites_list=$(printf "'%s'," "${installed_apps[@]}")
 favorites_list="[${favorites_list%,}]"
 
 # Set the favorite apps
-gsettings set org.gnome.shell favorite-apps "$favorites_list"
+/usr/bin/gsettings set org.gnome.shell favorite-apps "$favorites_list"

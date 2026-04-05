@@ -32,12 +32,23 @@ sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
 
 # Configure Tactile
 /usr/bin/gsettings set org.gnome.shell.extensions.tactile col-0 1
-/usr/bin/gsettings set org.gnome.shell.extensions.tactile col-1 2
-/usr/bin/gsettings set org.gnome.shell.extensions.tactile col-2 1
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile col-1 1
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile col-2 0
 /usr/bin/gsettings set org.gnome.shell.extensions.tactile col-3 0
 /usr/bin/gsettings set org.gnome.shell.extensions.tactile row-0 1
-/usr/bin/gsettings set org.gnome.shell.extensions.tactile row-1 1
-/usr/bin/gsettings set org.gnome.shell.extensions.tactile gap-size 32
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile row-1 0
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile layout-2-col-0 1
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile layout-2-col-1 1
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile layout-2-col-2 0
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile layout-2-col-3 0
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile layout-2-row-0 1
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile layout-2-row-1 1
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile layout-2-row-2 0
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile tile-0-0 "['Left']"
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile tile-1-0 "['Right']"
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile tile-0-1 "['a']"
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile tile-1-1 "['s']"
+/usr/bin/gsettings set org.gnome.shell.extensions.tactile gap-size 15
 
 # Configure Just Perfection
 /usr/bin/gsettings set org.gnome.shell.extensions.just-perfection animation 2

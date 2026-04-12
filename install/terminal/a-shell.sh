@@ -10,3 +10,6 @@ source ~/.local/share/omakub/defaults/bash/shell
 [ -f ~/.inputrc ] && mv ~/.inputrc ~/.inputrc.bak
 # Configure the inputrc using Omakub defaults
 cp ~/.local/share/omakub/configs/inputrc ~/.inputrc
+
+# Install homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"

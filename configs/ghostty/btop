@@ -1,0 +1,17 @@
+term = xterm-ghostty
+command = zellij
+
+window-padding-x = 30
+window-padding-y = 30
+window-decoration = none
+gtk-titlebar = false
+gtk-tabs-location = hidden
+background-opacity = 0.98
+columns = 121
+lines = 40
+
+keybind = f11=toggle_fullscreen
+
+config-file = ~/.config/ghostty/font
+config-file = ~/.config/ghostty/font-size
+config-file = ~/.config/ghostty/theme

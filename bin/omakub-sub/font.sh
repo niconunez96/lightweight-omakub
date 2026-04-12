@@ -6,7 +6,7 @@ set_font() {
 	local file_type=$3
 	local file_name="${font_name/ Nerd Font/}"
 
-	if ! $(fc-list | grep -i "$font_name" >/dev/null); then
+	if ! "$(fc-list | grep -i "$font_name" >/dev/null)"; then
 		cd /tmp
 		wget -O "$file_name.zip" "$url"
 		unzip "$file_name.zip" -d "$file_name"
@@ -15,11 +15,11 @@ set_font() {
 		fc-cache
 		cd -
 		clear
-		source $OMAKUB_PATH/ascii.sh
+		source "$OMAKUB_PATH"/ascii.sh
 	fi
 
 	/usr/bin/gsettings set org.gnome.desktop.interface monospace-font-name "$font_name 10"
-	cp "$OMAKUB_PATH/configs/alacritty/fonts/$file_name.toml" ~/.config/alacritty/font.toml
+	cp "$OMAKUB_PATH/configs/ghostty/fonts/$file_name" ~/.config/ghostty/font
 	sed -i "s/\"editor.fontFamily\": \".*\"/\"editor.fontFamily\": \"$font_name\"/g" ~/.config/Code/User/settings.json
 }
 
@@ -43,9 +43,9 @@ case $choice in
 	set_font "MesloLGS Nerd Font" "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Meslo.zip" "ttf"
 	;;
 "> Change size")
-	source $OMAKUB_PATH/bin/omakub-sub/font-size.sh
+	source "$OMAKUB_PATH"/bin/omakub-sub/font-size.sh
 	exit
 	;;
 esac
 
-source $OMAKUB_PATH/bin/omakub-sub/menu.sh
+source "$OMAKUB_PATH"/bin/omakub-sub/menu.sh

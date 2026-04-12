@@ -1,0 +1,62 @@
+[app]
+overall = { bg = "#1a1b26" }
+
+[mgr]
+cwd = { fg = "#7aa2f7", bold = true }
+find_keyword = { fg = "#e0af68", bold = true }
+find_position = { fg = "#ad8ee6" }
+symlink_target = { fg = "#449dab" }
+marker_copied = { fg = "#9ece6a", bg = "#9ece6a", bold = true }
+marker_cut = { fg = "#f7768e", bg = "#f7768e", bold = true }
+marker_marked = { fg = "#ad8ee6", bg = "#ad8ee6", bold = true }
+marker_selected = { fg = "#7aa2f7", bg = "#7aa2f7", bold = true }
+count_copied = { fg = "#1a1b26", bg = "#9ece6a", bold = true }
+count_cut = { fg = "#1a1b26", bg = "#f7768e", bold = true }
+count_selected = { fg = "#1a1b26", bg = "#7aa2f7", bold = true }
+border_symbol = "|"
+border_style = { fg = "#444b6a" }
+
+[indicator]
+parent = { reversed = true }
+current = { reversed = true, bold = true }
+preview = { underline = true }
+padding = { open = "|", close = "|" }
+
+[tabs]
+active = { fg = "#1a1b26", bg = "#7aa2f7", bold = true }
+inactive = { fg = "#a9b1d6", bg = "#444b6a" }
+sep_inner = { open = "", close = "" }
+sep_outer = { open = "", close = "" }
+
+[mode]
+normal_main = { fg = "#1a1b26", bg = "#7aa2f7", bold = true }
+normal_alt = { fg = "#a9b1d6", bg = "#444b6a" }
+select_main = { fg = "#1a1b26", bg = "#9ece6a", bold = true }
+select_alt = { fg = "#a9b1d6", bg = "#444b6a" }
+unset_main = { fg = "#1a1b26", bg = "#f7768e", bold = true }
+unset_alt = { fg = "#a9b1d6", bg = "#444b6a" }
+
+[status]
+overall = { fg = "#a9b1d6", bg = "#1a1b26" }
+perm_type = { fg = "#7aa2f7" }
+perm_read = { fg = "#9ece6a" }
+perm_write = { fg = "#e0af68" }
+perm_exec = { fg = "#f7768e" }
+perm_sep = { fg = "#444b6a" }
+progress_label = { fg = "#7aa2f7", bold = true }
+progress_normal = { fg = "#7aa2f7", bg = "#444b6a" }
+progress_error = { fg = "#f7768e", bg = "#444b6a" }
+
+[filetype]
+rules = [
+  { url = "*/", fg = "#7aa2f7" },
+  { is = "link", fg = "#449dab" },
+  { is = "orphan", fg = "#f7768e" },
+  { is = "exec", fg = "#9ece6a" },
+  { is = "block", fg = "#e0af68" },
+  { is = "char", fg = "#e0af68" },
+  { is = "fifo", fg = "#ad8ee6" },
+  { is = "sock", fg = "#ad8ee6" },
+  { is = "sticky", fg = "#f7768e" },
+  { url = "*", fg = "#a9b1d6" }
+]
